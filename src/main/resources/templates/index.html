@@ -5,7 +5,6 @@
     <meta name="description" content="Home Page">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link th:href="@{/bootstrap/css/bootstrap.css}" rel="stylesheet"/>
-    <!--    <script type="text/javascript" th:src="@{/bootstrap/js/bootstrap.js}"></script>-->
     <script type="text/javascript" th:src="@{/jQuery/jquery.js}"></script>
     <style>
     </style>
@@ -37,34 +36,5 @@
     </tr>
 </table>
 
-<!--<script th:inline="javascript">-->
-<!--    /*<![CDATA[*/-->
-<!--    var modalesectiondata = null;-->
-<!--    $(function () {-->
-<!--        // datatableの設定を変更-->
-<!--        var modalesectiontable = $("#table1").DataTable({-->
-<!--            "bPaginate": true,-->
-<!--            "bLengthChange": false,-->
-<!--            "bFilter": true,-->
-<!--            "bSort": false,-->
-<!--            "bInfo": false,-->
-<!--            "bAutoWidth": false,-->
-<!--            "language": {-->
-<!--                "url": /*[[@{/DataTables-1.10.16/Japanese.json}]]*/ 'Japanese.json'-->
-<!--            },-->
-<!--            "ajax": {url: /*[[@{/getuserlist}]]*/ 'getuserlist', dataSrc: ''},-->
-<!--            "columns": [-->
-<!--                {data: "username"},-->
-<!--                {data: "mailaddress"},-->
-<!--            ],-->
-<!--            "columnDefs": [-->
-<!--                {targets: 0, width: 60},-->
-<!--                {targets: 1, width: 180},-->
-<!--                {targets: '_all', className: 'dt-head-center'},-->
-<!--            ]-->
-<!--        });-->
-<!--    })-->
-<!--    /*]]>*/-->
-<!--// </script>-->
 </body>
 </html>

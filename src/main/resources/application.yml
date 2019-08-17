@@ -1,8 +1,8 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/payment
-    username: postgres
+    url: jdbc:postgresql://192.168.3.3:5432/payment
+    username: nttdata
     password: nttdata
   #schema:
   #  - classpath:sql/department.sql
